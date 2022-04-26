@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 body{
     text-align: center;
@@ -98,6 +98,8 @@ a:hover{
 .main img{
     width: 200px;
     height: auto;
+    border: 5px solid #3882f6;
+    border-radius: 25px;
 }
 
 .points{
@@ -115,4 +117,54 @@ a:hover{
 
 .point p{
     color: #1f2937;
+}
+
+.quote{
+    background-color: #e5e7eb;
+}
+
+.quote p{
+    color: #1f2937;
+}
+
+.quote p:first-child{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: left;
+    padding: 50px 180px 10px;
+}
+
+.quote p:last-child{
+    font-weight: bolder;
+    padding-right: 200px;
+    padding-bottom: 50px;
+    text-align: right;
+    
+}
+
+.cta{
+    display: flex;
+    background-color: #3882f6;
+    margin: 100px 200px;
+    padding: 55px 130px;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.cta p{
+    text-align: left;
+}
+
+.cta span{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+button{
+    color: #ffffff;
+    background-color: #3882f6;
+    border: solid #ffffff;
+    border-radius: 10px;
+    padding: 0px 40px;
 }
