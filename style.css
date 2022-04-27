@@ -63,7 +63,8 @@ a:hover{
 
 .heroinfo{
     display: flex;
-    flex-direction: column;
+    /*flex-direction: column;*/
+    flex-wrap: wrap;
     gap: 20px;
     align-items: flex-start;
 }
@@ -161,12 +162,16 @@ a:hover{
     font-size: 25px;
 }
 
+.cta button{
+    border: solid #ffffff;
+}
+
 button{
     color: #ffffff;
     background-color: #3882f6;
-    border: solid #ffffff;
     border-radius: 10px;
-    padding: 0px 40px;
+    padding: 15px 40px;
+    border: none;
 }
 
 .footer{
