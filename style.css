@@ -106,7 +106,8 @@ a:hover{
 .points{
     display: flex;
     width: 75%;
-    justify-content: space-around;
+    gap: 40px;
+    justify-content: center;
 }
 
 .point{
@@ -164,6 +165,8 @@ a:hover{
 
 .cta button{
     border: solid #ffffff;
+    flex:0 0 auto;
+    width: 150px;
 }
 
 button{
